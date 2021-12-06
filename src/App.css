@@ -1,38 +1,94 @@
-.App {
+.container {
+  max-width: 600px;
+  min-height: 500px;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  box-shadow: 0px 0px 10px gray;
+}
+
+.text-centef {
   text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  border-bottom:1px solid black;
+  padding-top: 10px;
+  margin-right:  200px;
+  margin-left: 200px;
+  font-size: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.expence-traker {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  box-shadow: 0px 0px 10px gray;
+  justify-content: space-around;
+  background-color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Transiction-Form input {
+  width: 100%;
+  margin: 10px 0px;
+  padding: 5px 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.list-transix {
+  padding: 0;
+  margin: 0;
 }
+
+.list-transix>li {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 2px;
+  background-color: white;
+  box-shadow: 0px 0px 5px gray;
+  margin: 10px 5px;
+} 
+
+.Subm {
+  background-color: lightblue;
+  color: black;
+  font-size: 20px;
+}
+
+.Subm:active {
+  background-color: white;
+}
+
+.text {
+  font-size: 21px;
+  font-weight: lighter;
+  font-weight: lighter;
+
+}
+.Amount{
+font-size: 20px;
+}
+
+.text1 {
+  margin: 30px 0px 0px 0px;
+  text-align: center;
+  font-size: 21px;
+  font-weight: lighter;
+  font-family: cursive;
+}
+
+.blue {
+  color: rgb(81, 196, 235);
+  font-weight: bolder;
+}
+
+.list {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.grenn{
+color: green;
+font-size: large;
+}
+.red{
+  color: red;
+  font-size: large;
+  }
+  
+  .white{
+    color: black;
+    font-weight: lighter;
+  }
