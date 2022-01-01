@@ -1,3 +1,4 @@
+
 let TraansactionRed = ((state, action) => {
   switch (action.type) {
     case "Add": {

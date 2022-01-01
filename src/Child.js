@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 import { TransactionContext } from "./transiction-conyext";
-import DelEte from  "./delet"
+
 function Child() {
   let { transiction, addTsaction, deleteTsaction } = useContext(TransactionContext);
   let [newDesc, setDesc] = useState("");
@@ -37,7 +37,6 @@ function Child() {
     <>
       <div className="container">
         <h1 className="text-centef">
-          {" "}
           <span className="blue">Daily</span>{" "}
           <span className="white">Cash</span>
         </h1>
