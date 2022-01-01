@@ -8,7 +8,7 @@ function Child() {
 
   const handleADDition = (event) => {
     event.preventDefault();
-    if (Number(newAmount) == 0) alert("Please Enter Correct Values ");
+    if (Number(newAmount) === 0) alert("Please Enter Correct Values ");
     return (
       false,
       addTsaction({
