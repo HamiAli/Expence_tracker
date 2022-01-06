@@ -59,17 +59,6 @@ function Child() {
         </h4>
         <hr />
 
-        <ul className="list-transix">
-          {transiction.map((transObj) => {
-            return (
-              <li onClick = {deleteTsaction()} className="list">
-                <span>{transObj.desc}</span>
-                <span>{transObj.amount}</span>
-                <button >Delete</button>
-              </li>
-            );
-          })}
-        </ul>
         <form className="Transiction-Form" onSubmit={handleADDition}>
           <label className="text">
             Enter <span className="blue">Discription</span> <br />
