@@ -37,8 +37,8 @@ function Child() {
     <>
       <div className="container">
         <h1 className="text-centef">
-          <span className="blue">Daily</span>{" "}
-          <span className="white">Cash</span>
+          <span className="blue">Easy </span>{" "}
+          <span className="white">Transactions</span>
         </h1>
           
 
