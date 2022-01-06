@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import { TransactionContext } from "./transiction-conyext";
 
 function Child() {
-  let { transiction, addTsaction, deleteTsaction } = useContext(TransactionContext);
+  let { transiction, addTsaction } = useContext(TransactionContext);
   let [newDesc, setDesc] = useState("");
   let [newAmount, setAmount] = useState(0);
 
